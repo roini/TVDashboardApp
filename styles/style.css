@@ -12,7 +12,7 @@ body{
 }
 /*background*/
 .mainMovieCover{
-    background:url("../assets/img/godzilla-2021.svg");
+    background:url("./assets/img/godzilla-2021.svg");
     /* */
     background-repeat: no-repeat;
     Width:1440px;
