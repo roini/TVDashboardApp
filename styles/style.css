@@ -1,0 +1,211 @@
+/*reset css*/
+h1,h2{
+    margin: 0;
+    padding: 0;
+}
+body{
+    Width:1440px;
+    Height:1024px;
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+/*background*/
+.mainMovieCover{
+    background: linear-gradient(91.28deg, rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 82.23%),url("/assets/img/godzilla-2021.svg");
+    background-repeat: no-repeat;
+    Width:1440px;
+    Height:891px;
+    position: relative;
+    padding:0;
+}
+/*header*/
+header{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 133px;
+    width: 1440px;
+    border-radius: 0px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+header nav{
+    width: 1283px;
+    height: 30px;
+    margin-left: 56px;
+    margin-right: 101px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+}
+header .left-cont-forNAv a{
+    height: 25px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-right: 40px;
+}
+header .left-cont-forNAv a:last-child{
+    margin-right: 0;
+}
+.right_cont_forNAv img{
+    width: 18px;
+    height: 19px;
+    margin-right: 32px;
+}
+.right_cont_forNAv a:last-child
+{
+    height: 25px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+/*main cont*/
+
+.film-play-cont{
+    position: absolute;
+    width: 514px;
+    height: 424px;
+    left: 88px;
+    top: 140px;
+    box-sizing: border-box;
+}
+.film-play-cont h1{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 133px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.film-play-cont h2{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 74px;
+    color: #FFFFFF;
+}
+.film-play-cont p{
+    margin-top: 6px;
+    box-sizing: border-box;
+    width: 514px;
+    height: 81px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.film-play-cont .rating-stars{
+    margin-top: 23px;
+    width: 157px;
+    height: 26px;
+    box-sizing: border-box;
+}
+.film-play-cont .btnConForfilm {
+    margin-top: 24px;
+    box-sizing: border-box;
+    width: 337px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .btnConForfilm .watch{
+    width: 193px;
+    height: 56px;
+    background: #FA4776;
+    border-radius: 41px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+ }
+
+ .btnConForfilm img {
+    width: 28px;
+    height: 21px;
+    left: 43px;
+    top: 14px;
+    border-radius: 3px;
+ }
+
+.btnConForfilm .trailer{
+    width: 120px;
+    height: 48px;
+    left: 217px;
+    top: 4px;
+    border: 1px solid #FFFFFF;
+    border-radius: 41px;
+    box-sizing: border-box;
+ }
+
+ .PopularMoviesHead{
+    position: absolute;
+    height: 30px;
+    left: 56px;
+    top: 609px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+ .PopularMoviesList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    width: 1314px;
+    height: 286px;
+    left: 45px;
+    top: 672px;
+    background: rgba(103, 101, 113, 0.34);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+ }
+
+ .PopularMoviesList img{
+    width: 182px;
+    height: 256px;
+    border-radius: 16px;
+ }
+
+ .nextBtn{
+    position: absolute;
+    left: 1359px;
+    top: 780px;
+    text-decoration: none;
+ }
+ .nextBtn img{
+    height: 70px;
+    width:70px;
+ }
