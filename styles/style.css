@@ -12,7 +12,7 @@ body{
 }
 /*background*/
 .mainMovieCover{
-    background:linear-gradient(91.28deg, rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 82.23%),url("assets/img/godzilla-2021.svg");
+    background:linear-gradient(91.28deg, rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 82.23%),url("/assets/img/godzilla-2021.svg");
     /* */
     background-repeat: no-repeat;
     Width:1440px;
